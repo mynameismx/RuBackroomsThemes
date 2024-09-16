@@ -5,13 +5,13 @@
    доработка и обновление от Айзека и МХ'а
 */
 
-@import url("/local--files/system:themes/fsm.css");
-@import url("/local--files/system:themes/normalize-archived.css");
-@import url("/local--files/system:themes/bhl-archived.css");
-@import url("/local--files/system:themes/sidebar.css");
-@import url("/local--files/system:themes/user-menu.css");
-@import url("/local--files/system:themes/forum.css");
-@import url("/local--files/system:themes/rate-module.css");
+@import url("fsm.css");
+@import url("normalize-archived.css");
+@import url("bhl-archived.css");
+@import url("sidebar.css");
+@import url("user-menu.css");
+@import url("forum.css");
+@import url("rate-module.css");
 
 :root {
     --theme-base: "black-highlighter";
