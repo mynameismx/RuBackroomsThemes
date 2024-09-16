@@ -5,19 +5,19 @@
 @import url("https://cdn.scpwiki.com/theme/en/black-highlighter/css/min/black-highlighter.min.css");
  
 /* Fantasque Sans Mono Font */
-@import url("fsm.css");
+@import url("https://mynameismx.github.io/RuBackroomsThemes/main-theme/fsm.css");
  
 /* Inter Tight Font */
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
  
 /* Fancy Forums */
-@import url("theme:nuliminal-forum-theme.css");
+@import url("https://mynameismx.github.io/RuBackroomsThemes/nuliminal/theme:nuliminal-forum-theme.css");
 
 /* Mask Icons */
-@import url("theme:nuliminal-mask-icons.css");
+@import url("https://mynameismx.github.io/RuBackroomsThemes/nuliminal/theme:nuliminal-mask-icons.css");
 
 /* Material Icons */
-@import url("theme:nuliminal-material-icons.css");
+@import url("https://mynameismx.github.io/RuBackroomsThemes/nuliminal/theme:nuliminal-material-icons.css");
  
 /* Root Variables: When making a new theme, see: https://github.com/Nu-SCPTheme/Black-Highlighter/blob/master/src/css/parts/root.css */
  
