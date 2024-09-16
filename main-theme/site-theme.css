@@ -18,7 +18,7 @@
     --theme-id: "liminal";
     --theme-name: "Liminal Theme";
 
-    --logo-image: url("/local--files/system:themes/logo.svg");
+    --logo-image: url("logo.svg");
     --header-title: "Закулисье";
     --header-subtitle: "Вы бывали здесь раньше.";
 
