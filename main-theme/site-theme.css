@@ -451,7 +451,7 @@ span.printuser.deleted img.small {
 #search-top-box-form input[type='submit']:focus {
     text-decoration: none;
     text-shadow: none;
-    background-color: rgb(var(--light-gray-monochrome));
+    background-color: rgb(var(--pale-accent));
     color: rgb(var(--pale-gray-monochrome));
     cursor: pointer;
     padding: 5px 10px;
