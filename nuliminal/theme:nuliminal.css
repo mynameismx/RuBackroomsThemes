@@ -1,8 +1,8 @@
 /* Remove Default Wikidot Styles */
-@import url("https://cdn.scpwiki.com/theme/en/black-highlighter/css/min/normalize.min.css");
+@import url("https://nu-scptheme.github.io/Black-Highlighter/css/min/normalize.min.css");
 
  /* Base BHL Theme */
-@import url("https://cdn.scpwiki.com/theme/en/black-highlighter/css/min/black-highlighter.min.css");
+@import url("https://nu-scptheme.github.io/Black-Highlighter/css/min/black-highlighter.min.css");
  
 /* Fantasque Sans Mono Font */
 @import url("https://mynameismx.github.io/RuBackroomsThemes/main-theme/fsm.css");
