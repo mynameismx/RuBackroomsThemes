@@ -665,6 +665,22 @@ code {
     overflow: auto;
 }
 
+#top-bar div.top-bar>ul>li>ul>li>a:before, #top-bar div.top-bar>ul>li>ul>li>a:hover:before, #top-bar div.top-bar>ul>li>ul>li>ul>li>a:before {
+    display: none;
+}
+
+#top-bar div.mobile-top-bar>ul>li>ul>li:hover:after, #top-bar div.mobile-top-bar>ul>li>ul>li:hover:before, #top-bar div.top-bar>ul>li>ul>li:hover:after, #top-bar div.top-bar>ul>li>ul>li:hover:before {
+    display: none;
+}
+
+#top-bar li ul {
+    transition: .2s ease-in-out;
+}
+
+#top-bar div.mobile-top-bar>ul>li>ul>li:hover>a, #top-bar div.top-bar>ul>li>ul>li:hover>a {
+    background-color: rgb(var(--bright-accent));
+}
+
 #side-bar div.interwiki-if-code br {
     display: none;
 }
