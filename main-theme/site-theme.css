@@ -76,6 +76,7 @@ div.wd-adunit {
 
 #header h1 a {
     line-height: 0.6;
+    width: fit-content !important;
 }
 
 #side-bar .side-block.img-links div a img {
@@ -173,9 +174,18 @@ div#page-options-bottom>a:hover {
     justify-content: center;
 }
 
+#header h1 a>span {
+    pointer-events: none;
+}
+
 #header h1 a::before,
 #header h2 span::before {
     text-shadow: .063rem 0.1rem 0.1rem #0c0c0c;
+    transition: transform .2s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+#header h1 a:hover:before {
+    transform: translateY(-3px);
 }
 
 a.newpage {
