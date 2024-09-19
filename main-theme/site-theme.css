@@ -5,13 +5,13 @@
    доработка и обновление от Айзека и МХ'а
 */
 
-@import url("fsm.css");
-@import url("normalize-archived.css");
-@import url("bhl-archived.css");
-@import url("sidebar.css");
-@import url("user-menu.css");
-@import url("forum.css");
-@import url("rate-module.css");
+@import url("https://mynameismx.github.io/RuBackroomsThemes/main-theme/fsm.css");
+@import url("https://mynameismx.github.io/RuBackroomsThemes/main-theme/normalize-archived.css");
+@import url("https://mynameismx.github.io/RuBackroomsThemes/main-theme/bhl-archived.css");
+@import url("https://mynameismx.github.io/RuBackroomsThemes/main-theme/sidebar.css");
+@import url("https://mynameismx.github.io/RuBackroomsThemes/main-theme/user-menu.css");
+@import url("https://mynameismx.github.io/RuBackroomsThemes/main-theme/forum.css");
+@import url("https://mynameismx.github.io/RuBackroomsThemes/main-theme/rate-module.css");
 
 :root {
     --theme-base: "black-highlighter";
