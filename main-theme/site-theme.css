@@ -76,6 +76,8 @@ div.wd-adunit {
 #header h1 a {
     line-height: 0.6;
     width: fit-content !important;
+    min-width: 10rem;
+    min-height: 2rem;
 }
 
 #side-bar .side-block.img-links div a img {
