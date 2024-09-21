@@ -13,49 +13,6 @@
 @import url("https://mynameismx.github.io/RuBackroomsThemes/main-theme/forum.css");
 @import url("https://mynameismx.github.io/RuBackroomsThemes/main-theme/rate-module.css");
 
-:root {
-    --theme-base: "black-highlighter";
-    --theme-id: "liminal";
-    --theme-name: "Liminal Theme";
-
-    --logo-image: url("https://files.backroomswiki.ru/local--files/system:themes/logo.svg");
-    --header-title: "Закулисье";
-    --header-subtitle: "Вы бывали здесь раньше.";
-
-    --body-font: Arial, sans-serif;
-    --header-font: 'Fantasque Sans Mono', monospace;
-    --title-font: 'Fantasque Sans Mono', monospace;
-    --mono-font: 'Fantasque Sans Mono', monospace;
-
-    --white-monochrome: 237, 233, 223;
-    --pale-gray-monochrome: 255, 251, 240;
-    --light-gray-monochrome: 160, 160, 160;
-    --dark-gray-monochrome: 64, 63, 52;
-    --gray-monochrome: 72, 69, 60;
-    --black-monochrome: 25, 20, 16;
-    --bright-accent: 140, 136, 126;
-    --medium-accent: 72, 69, 60;
-    --dark-accent: 140, 136, 126;
-    --pale-accent: 140, 136, 126;
-
-    --swatch-topmenu-border-color: var(--medium-accent);
-
-    --link-color: 230, 23, 68;
-    --hover-link-color: 230, 23, 68;
-
-    --background-gradient-distance: 0rem;
-
-    --gradient-header: linear-gradient(to top,
-            rgba(var(--medium-accent)) 0%,
-            rgba(var(--medium-accent), 0.90) 100%);
-    --diagonal-stripes: linear-gradient(transparent 0);
-
-    --header-h2-font-size: calc(var(--base-font-size)*1.35);
-    --header-height-on-desktop: 10rem;
-    --header-height-on-mobile: 10rem;
-    --sidebar-width-on-desktop: 20rem;
-}
-
 body#html-body {
     overflow-x: hidden;
 }
@@ -718,4 +675,47 @@ code {
     #side-bar div.scpnet-interwiki-wrapper {
         width: 100%;
     }
+}
+
+:root {
+    --theme-base: "black-highlighter";
+    --theme-id: "liminal";
+    --theme-name: "Liminal Theme";
+
+    --logo-image: url("https://files.backroomswiki.ru/local--files/system:themes/logo.svg");
+    --header-title: "Закулисье";
+    --header-subtitle: "Вы бывали здесь раньше.";
+
+    --body-font: Arial, sans-serif;
+    --header-font: 'Fantasque Sans Mono', monospace;
+    --title-font: 'Fantasque Sans Mono', monospace;
+    --mono-font: 'Fantasque Sans Mono', monospace;
+
+    --white-monochrome: 237, 233, 223;
+    --pale-gray-monochrome: 255, 251, 240;
+    --light-gray-monochrome: 160, 160, 160;
+    --dark-gray-monochrome: 64, 63, 52;
+    --gray-monochrome: 72, 69, 60;
+    --black-monochrome: 25, 20, 16;
+    --bright-accent: 140, 136, 126;
+    --medium-accent: 72, 69, 60;
+    --dark-accent: 140, 136, 126;
+    --pale-accent: 140, 136, 126;
+
+    --swatch-topmenu-border-color: var(--medium-accent);
+
+    --link-color: 230, 23, 68;
+    --hover-link-color: 230, 23, 68;
+
+    --background-gradient-distance: 0rem;
+
+    --gradient-header: linear-gradient(to top,
+            rgba(var(--medium-accent)) 0%,
+            rgba(var(--medium-accent), 0.90) 100%);
+    --diagonal-stripes: linear-gradient(transparent 0);
+
+    --header-h2-font-size: calc(var(--base-font-size)*1.35);
+    --header-height-on-desktop: 10rem;
+    --header-height-on-mobile: 10rem;
+    --sidebar-width-on-desktop: 20rem;
 }
